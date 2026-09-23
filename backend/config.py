@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 CLOUD_BASE_URL: str = "https://generativelanguage.googleapis.com/v1beta/openai/"
-CLOUD_API_KEY: str = os.getenv("GEMINI_API_KEY", "AQ.Ab8RN6ImnW4y01aD42VNzLiYNAiAcpZF1iZaCC4XQufuZCBsOQ")  # Or paste your AIzaSy... key directly
+CLOUD_API_KEY: str = os.getenv("GEMINI_API_KEY", "USE_API_KEY")  # Or paste your AIzaSy... key directly
 CLOUD_MODEL_NAME: str = os.getenv("CLOUD_MODEL_NAME", "gemini-3.5-flash-lite")
 CLOUD_TIMEOUT_SECONDS: float = 8.0
 
