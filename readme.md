@@ -38,9 +38,6 @@
 Conventional Neural Machine Translation (NMT) platforms (such as Google Translate or DeepL) excel at literal lexical substitution and syntax preservation. However, in high-context sociolinguistic environments, **how** something is articulated (social distance, deference, honorifics, hierarchy) is often more critical than **what** is said.
 
 **PITC (Proactive Intelligent Translation Coach)** is a real-time, context-aware translation coach embedded directly into messaging workflows. Rather than providing post-hoc apologies or basic sentiment scores after a message has been delivered, PITC intercepts drafts **prior to transmission**, diagnosing pragmatic hazards and offering culturally calibrated formality variants with one-click adoption.
-
----
-
 ## ⚠️ The Problem: Pragmatic Failure in NMT
 
 A translation can be grammatically flawless and semantically precise while remaining **sociopragmatically offensive**. 
