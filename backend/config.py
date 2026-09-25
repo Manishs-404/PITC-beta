@@ -7,7 +7,7 @@ load_dotenv()
 CLOUD_BASE_URL: str = "https://generativelanguage.googleapis.com/v1beta/openai/"
 CLOUD_API_KEY: str = os.getenv("GEMINI_API_KEY", "USE_API_KEY")  # Or paste your AIzaSy... key directly
 CLOUD_MODEL_NAME: str = os.getenv("CLOUD_MODEL_NAME", "gemini-3.5-flash-lite")
-CLOUD_TIMEOUT_SECONDS: float = 8.0
+CLOUD_TIMEOUT_SECONDS: float = 60.0
 
 OLLAMA_BASE_URL: str = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434/v1")
 LOCAL_MODEL_NAME: str = os.getenv("LOCAL_MODEL_NAME", "aya-expanse:8b")
