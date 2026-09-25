@@ -46,6 +46,8 @@ A translation can be grammatically flawless and semantically precise while remai
 * **Western Bias in Off-the-Shelf LLMs:** Standard conversational models favor direct, low-context Western communicative conventions, mischaracterizing necessary hierarchical deference in Asian and Middle Eastern cultures as wordiness.
 * **Latency vs. Data Sovereignty Dilemma:** Cloud-only models introduce latency spikes and risk leaking enterprise conversations; edge-only models can cause typing lag on consumer hardware.
 
+---
+
 ## 🚀 Key Features
 
 1. **Pre-Send Interception (Debounced Keystroke Hook):**
