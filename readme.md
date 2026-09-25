@@ -38,9 +38,6 @@
 Conventional Neural Machine Translation (NMT) platforms (such as Google Translate or DeepL) excel at literal lexical substitution and syntax preservation. However, in high-context sociolinguistic environments, **how** something is articulated (social distance, deference, honorifics, hierarchy) is often more critical than **what** is said.
 
 **PITC (Proactive Intelligent Translation Coach)** is a real-time, context-aware translation coach embedded directly into messaging workflows. Rather than providing post-hoc apologies or basic sentiment scores after a message has been delivered, PITC intercepts drafts **prior to transmission**, diagnosing pragmatic hazards and offering culturally calibrated formality variants with one-click adoption.
-
----
-
 ## ⚠️ The Problem: Pragmatic Failure in NMT
 
 A translation can be grammatically flawless and semantically precise while remaining **sociopragmatically offensive**. 
@@ -48,8 +45,6 @@ A translation can be grammatically flawless and semantically precise while remai
 * **The T-V Distinction Trap:** Languages like Hindi, Tamil, Kannada, and Arabic enforce strict grammatical divisions based on relative age, corporate hierarchy, and intimacy. Standard translators frequently default to informal second-person pronouns (e.g., Hindi *Tu* instead of *Aap*), leading to accidental insubordination or social embarrassment.
 * **Western Bias in Off-the-Shelf LLMs:** Standard conversational models favor direct, low-context Western communicative conventions, mischaracterizing necessary hierarchical deference in Asian and Middle Eastern cultures as wordiness.
 * **Latency vs. Data Sovereignty Dilemma:** Cloud-only models introduce latency spikes and risk leaking enterprise conversations; edge-only models can cause typing lag on consumer hardware.
-
----
 
 ## 🚀 Key Features
 
@@ -90,7 +85,7 @@ PITC classifies sociolinguistic risks into five standardized categories:
 
 | Code | Language | Script | Direction | T-V Register System |
 | :---: | :--- | :--- | :---: | :--- |
-| `hi` | **Hindi** | Devanagari | LTR | **Aap** (Formal) / **Tum** (Semi-Formal) / **Tu** (Informal/Intimate) |
+| `hi` | **Hindi** | Ooty | LTR | **Aap** (Formal) / **Tum** (Semi-Formal) / **Tu** (Informal/Intimate) |
 | `ta` | **Tamil** | Tamil | LTR | **Neenga** (Formal/Respectful) / **Nee** (Informal/Casual) |
 | `kn` | **Kannada** | Kannada | LTR | **Neevu** (Formal/Respectful) / **Neenu** (Informal/Casual) |
 | `ar` | **Arabic** | Arabic | RTL | **Antum / Hadratak** (Formal) / **Anta / Anti** (Standard) / **Inta** (Colloquial) |
